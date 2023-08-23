@@ -1,8 +1,15 @@
 import React from 'react'
+import Navbar from './SubCompnents/Navbar'
 
 const DashBoard = () => {
   return (
-    <div>DashBoard</div>
+   <>
+   <Navbar/>
+    <div className="dashboard">
+    <h2>Dashboard</h2>
+    <p>Welcome to your dashboard! This is where you can view important information.</p>
+  </div>
+   </>
   )
 }
 
