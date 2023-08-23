@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './SubCompnents/Navbar'
 
 const Contact = () => {
   return (
    <>
+   <Navbar/>
    <div className="contact-page">
       <h2>Contact Us</h2>
       <p>Feel free to get in touch with us!</p>

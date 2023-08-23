@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './SubCompnents/Navbar'
 
 const Portfolio = () => {
   return (
     <>
+    <Navbar/>
     <div className="portfolio-page">
       <h2>Portfolio</h2>
       <p>Explore some of our projects.</p>
