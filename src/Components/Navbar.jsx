@@ -213,7 +213,7 @@ const TableComp = ({ item, ind }) => {
 
     return (
         <>
-            <button onClick={() => OpenPopup(ind)} className="btn btn-success">Table {ind}</button>
+            <button onClick={() => OpenPopup(ind)} >Table {ind}</button>
             <div key={ind}>
                 <p> RAKE :{tablesocketData?.RAKE}</p>
                 <p> RAKE Cap:{tablesocketData?.RAKECAP}</p> 
