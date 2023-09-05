@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './SubCompnents/Navbar'
 import { EmployeeData } from './ResponceSlice'
 import { useDispatch } from 'react-redux'
+import {useNavigate} from "react-router-dom"
 const Contact = () => {
   const [name,setName]=useState("")
   const [email,setEmail]=useState("")
@@ -9,6 +10,7 @@ const Contact = () => {
   const [Age,setAge]=useState("")
   const [message,setMessage]=useState("")
   const Dispatch=useDispatch()
+  const Navigate=useNavigate()
 const HandleSubmit=(e)=>{
   e.preventDefault()
   const empobj={
@@ -19,6 +21,7 @@ const HandleSubmit=(e)=>{
     message:message
   }
   Dispatch(EmployeeData(empobj))
+  Navigate("/about")
 }
 
   return (
