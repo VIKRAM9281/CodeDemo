@@ -4,14 +4,13 @@ import Navbar from './SubComponents/Navbar';
 import Section from './SubComponents/Section';
 import 'flowbite';
 import Slider from './SubComponents/Slider';
+import Home from './Components/Home';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Section/>
-      <Slider/>
+<Home/>
     </div>
   );
 }
