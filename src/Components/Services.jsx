@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "../SubComponents/Navbar";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/" element={<Navbar />} />
+      </Routes>
+      <div>Services</div>
+    </>
+  );
+};
 
-export default Services
+export default Services;

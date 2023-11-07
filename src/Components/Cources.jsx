@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "../SubComponents/Navbar";
 
 const Cources = () => {
   return (
-    <div>Cources</div>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/" element={<Navbar />} />
+      </Routes>
+      <div>Cources</div>
+    </>
+  );
+};
 
-export default Cources
+export default Cources;
