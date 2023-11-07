@@ -1,16 +1,25 @@
 import './App.css';
 import { Routes,Route} from "react-router-dom" //dependence 
-import Navbar from './SubComponents/Navbar';
-import Section from './SubComponents/Section';
 import 'flowbite';
-import Slider from './SubComponents/Slider';
+//Components 
 import Home from './Components/Home';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Services from './Components/Services';
+import Cources from './Components/Cources';
 
 
 function App() {
   return (
     <div className="App">
-<Home/>
+       <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Services' element={<Services/>}/>
+        <Route path='/Cources' element={<Cources/>}/>
+
+       </Routes>
     </div>
   );
 }

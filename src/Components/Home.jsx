@@ -3,6 +3,7 @@ import { Routes,Route } from 'react-router-dom'
 import Navbar from '../SubComponents/Navbar'
 import Section from '../SubComponents/Section'
 import Slider from '../SubComponents/Slider'
+import Footer from '../SubComponents/Footer'
 
 const Home = () => {
   return (
@@ -13,10 +14,12 @@ const Home = () => {
    <Routes>
    <Route path="/" element={<Section />}/>
    </Routes>
-   <Routes>
+   {/* <Routes>
    <Route path="/" element={<Slider />}/>
+   </Routes> */}
+   <Routes>
+   <Route path="/" element={<Footer />}/>
    </Routes>
-   <h1>Hello</h1>
    </>
   )
 }
