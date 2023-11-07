@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../assets/img/Logo.png"
+import Logo from "../assets/img/logoreact.png"
 const Navbar = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const Navbar = () => {
     <button  className="flex items-center">
       <img
         src={Logo}
-        className="h-8 mr-3"
+        className="h-8 mr-3 Logo"
         alt="Flowbite Logo"
       />
     </button>
