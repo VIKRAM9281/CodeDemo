@@ -1,0 +1,30 @@
+{
+    "languageData":[
+        {
+            "name":"HTML",
+            "url":"/Language_Icon/Html.png",
+            "Description":"HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium recommendation"
+        },
+        {
+            "name":"CSS",
+            "url":"/Language_Icon/css.png",
+            "Description":""
+        },{
+            "name":"BOOTSTRAP-5",
+            "url":"/Language_Icon/bootstrap1.png",
+            "Description":""
+        },{
+            "name":"JAVASCTIPT",
+            "url":"/Language_Icon/javascript.png",
+            "Description":""
+        },{
+            "name":"REACT JS",
+            "url":"/Language_Icon/react.png",
+            "Description":""
+        },{
+            "name":"REACT-REDUX",
+            "url":"/Language_Icon/redux.png",
+            "Description":""
+        }
+    ]
+}
